@@ -1,0 +1,1 @@
+This website is a joke, and is NOT meant to be taken seriously. 
