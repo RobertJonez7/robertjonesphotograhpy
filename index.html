@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert Jones Photograhpy</title>
+</head>
+<body style="background-image: url('./assets/stars.jpg');">
+    <div style="display: flex">
+        <img src="./assets/logo.gif" alt="logo">
+        <img src="./assets/download1.gif" alt="download1" style="width: 174px; height: 80px; margin-left: 10em">
+    </div> 
+    <h2 style="color: #af35ca; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"><i>Using the 2018 smartphone of the year to capture stunning phots that you and your loved ones will cherish for years to come</i></h2>
+    <h2 style="color: cyan;">FOLLOW @robertjonesphotograhpy on INSTAGRAM</h2>
+    <marquee style="color: white; font-size: 1.25em; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">browse through thousands of hugh quality, highly professional photos. Contact us today!!!</marquee>
+    <hr>
+    <br><br>
+    <div style="display: flex;">
+        <img src="./assets/explosion.gif" alt="explosion" style="width: 50px; height: 50px">
+        <h3 style="font-family: comic-sans; color: yellow">CONTACT US NOW!!!!</h3>
+        <img src="./assets/explosion.gif" alt="explosion" style="width: 50px; height: 50px">
+    </div>
+    <div style="background-color: lime; display: flex; gap: 5em">
+        <div style="width: 40%; display: flex; flex-direction: column;">
+            <label for="name">name</label>
+            <input name="name"></input>
+
+            <label for="email">email</label>
+            <input name="name"></input>
+
+            <label for="email">name</label>
+            <input name="description"></input>
+            <br>
+            <button onclick="submit()">Submit</button>
+            <br>
+        </div>
+        <img src="./assets/email.gif" alt="email" style="width: 125px; height: 150px;">
+        <div id="status" style="margin-top: 2em; width: 150px; color: red"></div>
+        <img src="./assets/ad.gif" alt="singles" style="width: 350x; height: 225px; position: absolute; right: 0; margin-right: 2em;">
+    </div>
+
+    <br><br>
+    <h3 style="background-color: pink">GALLERY:</h3>
+    <br>
+    <div style="display: flex; gap: 4em">
+        <img src="./assets/photo1.png" alt="photo1" style="width: 400px; height: 400px">
+        <img src="./assets/photo2.png" alt="photo2" style="width: 400px; height: 400px">
+        <img src="./assets/photo3.png" alt="photo3" style="width: 400px; height: 400px">
+    </div>
+    <br>
+
+    <script>
+        const submit = () => {
+            const status = document.querySelector('#status')
+            status.innerHTML = "Email failed lmao. Message @robertjonesphotograhpy on Instagram instead";
+        };
+    </script>
+</body>
+</html>
